@@ -1,7 +1,12 @@
-# Effective Mobile DevOps Test Task
-
-## Описание
-
-Веб-приложение, развёрнутое с помощью Docker и Nginx.
 
 ## Схема работы
+# Effective Mobile DevOps Test Task
+
+## 📌 Описание
+
+Простое веб-приложение, развёрнутое с помощью **Docker** и **Nginx**.
+
+Приложение представляет собой HTTP-сервер на Python, который отвечает на запросы текстом:
+> "Hello from Effective Mobile!"
+
+Nginx выступает в роли reverse proxy, принимает запросы на порту 80 и перенаправляет их на бэкенд.
